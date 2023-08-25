@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array manipulation</title>
+</head>
+<body>
+    <h1>Array Manipulation:</h1>
+    <h4><b>Write a function to find the maxmimum,minimun,and average of an array</b></h4>
+
+    <script>
+        const someNumber = [12, 32, 43, 55, 99];
+const min = Math.min(...someNumber);
+const max = Math.max(...someNumber);
+let sum1 = 0;
+someNumber.forEach(numb => sum1 += numb);
+console.log("Min: ", min); 
+console.log("Max: ", max);
+console.log(sum1);
+    </script>
+    
+</body>
+</html>
